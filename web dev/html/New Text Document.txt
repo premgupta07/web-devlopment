@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>registration form</title>
+</head>
+	<form>
+		<h1>Register</h1>
+		<label for="fn">First Name:</label>
+		<input type="text" name="fn" size="20" required>
+		<label for="ln">Last Name:</label>
+		<input type="text" name="ln" size="20" required>
+		<br><br>
+		<label for="m">Male</label>
+		<input type="radio" name="m">
+		<label for="f">Female</label>
+		<input type="radio" name="f">
+		<label for="o">Other</label>
+		<input type="radio" name="o">
+	</form>
+</html>
